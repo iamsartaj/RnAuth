@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Alert, StyleSheet, View } from 'react-native';
-import { useNavigation } from 'expo-router';
-import FlatButton from '../ui/FlatButton';
+import { useNavigation } from '@react-navigation/native';
+import FlatButton from '../Ui/FlatButton';
 import AuthForm from './AuthForm';
 import { Colors } from '../../constants/styles';
 
